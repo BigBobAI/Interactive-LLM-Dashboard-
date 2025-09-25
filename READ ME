@@ -13,8 +13,8 @@ In Models choose Llama 3.1 8b: https://ollama.com/library/llama3.1:8b
 VSCode:
 In terminal for vscode write: python3 -m venv venv (this makes the virtual environment) <<<This was already done
 To activate: 
-    --> Windows: venv/scripts/activate.bat <<<This was already done
-    --> Mac: source venv/bin/activate
+    --> Windows: venv/scripts/activate.bat <<<MUST BE DONE TO WORK (puts you in venv)
+    --> Mac: source venv/bin/activate <<<MUST BE DONE TO WORK (puts you in venv)
 To install streamlit: pip ollama streamlit <<<This was already done
 
 -------------------------------
@@ -25,3 +25,7 @@ Make sure to select python virtual environment, it will be the venv one
 Run ollama serve in other terminal to make sure ollama is running. 
 
 To run: in terminal do: streamlit run Bob.py
+
+-------------------------------
+....IMPORTANT....
+In order to run at all (for streamlit run Bob.py) you MUST be in the venv. To do that make sure you activate venv [text above for windows or mac]
