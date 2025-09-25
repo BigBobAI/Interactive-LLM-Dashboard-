@@ -6,11 +6,9 @@ MODEL = 'llama3.1:8b' #this is the model we are using
 
 st.title("Hi, I'm Bob!")
 
-
 #initializes the messages
 if 'messages' not in st.session_state:
     st.session_state.messages = []
-
 
 #for all the messages we have in the session state --> display the message content
 for message in st.session_state["messages"]:
@@ -40,3 +38,4 @@ if prompt:= st.chat_input("Type here"): #this text will show up in the input bar
 
 
 
+    file = st.file_uploader("Pick a file") #allows user to upload a file ..... this doesn't work yet, you can submit a file, but nothing happens
