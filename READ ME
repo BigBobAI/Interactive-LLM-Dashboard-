@@ -1,0 +1,12 @@
+The project here is an LLM Dashboard. Using it users will be able to select a source, 
+ask questions about the soucre, recieve answers, and check chat history.
+
+Notes for ollama:
+Download ollama from site: https://ollama.com/download
+If done correctly then inputting 'ollama' into the terminal should print the list of commands for ollama.
+In Models choose Llama 3.1 8b: https://ollama.com/library/llama3.1:8b
+
+VSCode:
+In terminal for vscode write: python -m venv venv
+
+    
