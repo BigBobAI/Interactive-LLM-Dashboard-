@@ -18,15 +18,19 @@ st.sidebar.title("BOB A.I.")
 with st.sidebar:
     st.markdown("What does this do?")
     st.button("+ New Chat")
+    file = st.file_uploader("Pick a file") #allows user to upload a file ..... this doesn't work yet, you can submit a file, but nothing happens
+
 
 #initializes the messages with the system prompt
 if 'messages' not in st.session_state:
     st.session_state.messages = [{"role": "system","content": config.SYSTEM_MESSAGE}]
 
+
+
 #for all the messages we have in the session state --> display the message content
 for message in st.session_state["messages"]:
     if message["role"] != "system":
-        with st.chat_message(message["role"]):
+        with st.chat_message(message["role"], avatar="Assets/smiley.jpg" if message["role"] == "assistant" else "Assets/User_Icon.png"): #make it so that the icons remain throughout the chat history for the current conversation
             st.markdown(message["content"])
 
 
@@ -51,4 +55,3 @@ if prompt:= st.chat_input("Type here"): #this text will show up in the input bar
 
 
 
-    file = st.file_uploader("Pick a file") #allows user to upload a file ..... this doesn't work yet, you can submit a file, but nothing happens
