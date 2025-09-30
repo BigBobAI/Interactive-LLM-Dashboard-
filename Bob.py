@@ -14,7 +14,6 @@ load_css("Styling/style.css")
 #creates a unique key for each chat message (made this for styling)
 def unique_message(name):
     return st.container(key=f"{name}-{uuid.uuid4()}")
-    #return st.container(key=f"{name}-{uuid.uuid4()}").chat_message(name=name)
 
 MODEL = 'llama3.1:8b' #this is the model we are using
 
@@ -29,8 +28,10 @@ with st.sidebar:
 #initializes the messages with the system prompt
 if 'messages' not in st.session_state:
     st.session_state.messages = [{"role": "system","content": config.SYSTEM_MESSAGE}]
-    with st.chat_message("assistant", avatar="Assets/smiley.jpg"):
-        st.session_state.messages.append({'role': 'assistant', 'content': 'Hello! I am Bob. Please let me know how I can best assist you today.'}) #have the chatbot initiate conversation
+
+    #have the chatbot initiate conversation
+    st.session_state.messages.append({'role': 'assistant', 'content': 'Hello! I am Bob. Please let me know how I can best assist you today.'}) 
+
 
 #for all the messages we have in the session state --> display the message content
 for message in st.session_state["messages"]:
@@ -40,6 +41,7 @@ for message in st.session_state["messages"]:
                 with unique_message("user"):
                     with st.chat_message("user", avatar="Assets/User_Icon.png"):
                         st.markdown(message["content"])
+        
             else:
             #if role is assistant display assistant avatar
                 with st.chat_message("asssistant", avatar="Assets/smiley.jpg"):
