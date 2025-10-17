@@ -23,38 +23,31 @@ MODEL = 'llava:7b' #this is the model we are using
 #declare our current chat tuple
 CHAT_TUPLE = namedtuple('CHAT_TUPLE', ['CHAT_NAME', 'CHAT_MESSAGES'])
 
-#create our initial chat tuple
-CHAT1 = CHAT_TUPLE('Chat 1', config.SYSTEM_MESSAGE)
-
 #create the variable for chat counter
 CHAT_COUNT = 1
 
-#create the variable for the current chats held with the chatbot
-CHATS = [CHAT1]
-CHAT_NAMES = ["Chat 1"]
+if 'CHATS' not in st.session_state:
+    #create our initial chat tuple
+    CHAT1 = CHAT_TUPLE('Chat 1', config.SYSTEM_MESSAGE)
+    #create the variables for the current chats held with the chatbot
+    st.session_state['CHATS'] = [CHAT1]
+    st.session_state['CHAT_NAMES'] = ["Chat 1"]
 
 #create our clear chat history function
 def clear_chat_history():
-    global CHATS
-    CHATS = [CHAT1]
-
-    global CHAT_NAMES 
-    CHAT_NAMES = ["Chat 1"]
-    st.session_state.chat_history = CHAT_NAMES
-
+    CHAT1 = CHAT_TUPLE('Chat 1', config.SYSTEM_MESSAGE)
+    st.session_state['CHATS'] =  [CHAT1]
+    st.session_state['CHAT_NAMES'] = ["Chat 1"]
+    st.session_state.chat_history = st.session_state['CHAT_NAMES']
 
 #create our new chat function
 def new_chat():
-    global CHAT_COUNT
-    CHAT_COUNT = CHAT_COUNT + 1
-    CHAT_NAME = "Chat " + str(CHAT_COUNT)
+    CHAT_COUNT = len(st.session_state['CHAT_NAMES'])
+    CHAT_NAME = "Chat " + str(CHAT_COUNT+1)
     TEMP_CHAT = CHAT_TUPLE(CHAT_NAME, config.SYSTEM_MESSAGE)
-    CHATS.append(TEMP_CHAT)
-
-    st.session_state.chat_history = CHAT_NAMES
-
-    #list for the chat names (that will be displayed)
-    CHAT_NAMES.append(CHAT_NAME)
+    st.session_state['CHATS'].append(TEMP_CHAT)
+    st.session_state['CHAT_NAMES'].append(CHAT_NAME)
+    st.session_state.chat_history = st.session_state['CHAT_NAMES']
 
 st.sidebar.title("BOB A.I.")
 with st.sidebar:
@@ -62,7 +55,7 @@ with st.sidebar:
 
     #if it doesn't already exist, make it, fill with CHAT_NAMES list
     if 'chat_history' not in st.session_state:
-        st.session_state['chat_history'] = CHAT_NAMES
+        st.session_state['chat_history'] = st.session_state['CHAT_NAMES']
 
     #make a select box to view the previous chats
     chatHistorySelectBox = st.selectbox("View Chat History", st.session_state.chat_history)
