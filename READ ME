@@ -19,6 +19,11 @@ To install streamlit: pip ollama streamlit (may be pip3 ollama streamlit)
 
 Make sure you download python and have the python extensions for VSCode. 
 Make sure that you choose the python interpreter (venv one)
+
+Make sure you have pypdf installed.
+To do this:
+    --> pip install pypdf
+    --> pip3 install pypdf (if regular pip is not working)
 -------------------------------
 ....Other Notes....
 
