@@ -8,6 +8,12 @@ from pypdf import PdfReader
 
 st.set_page_config(layout="wide")
 
+#define the standard initial messages for a new chat
+INITIAL_CHAT_HISTORY = [
+    {"role": "system", "content": config.SYSTEM_MESSAGE},
+    {'role': 'assistant', 'content': 'Hello! I am Bob. Please let me know how I can best assist you today.'}
+]
+
 #function to load the css styling
 def load_css(file_path):
     with open(file_path) as f:
@@ -22,9 +28,11 @@ def unique_message(name):
 
 MODEL = 'llava:7b' #this is the model we are using
 
+# --- Session State Initialization---
+
 if 'CHATS' not in st.session_state:
-    #create the variables for the current chats held with the chatbot
-    st.session_state['CHATS'] = [config.SYSTEM_MESSAGE]
+    #CHATS is a list of chat histories (list of lists of dictionaries)
+    st.session_state['CHATS'] = [INITIAL_CHAT_HISTORY.copy()] 
     st.session_state['CHAT_NAMES'] = ["Chat 1"]
     st.session_state.current_chat = 0
     st.session_state.selected_chat = 0
@@ -32,66 +40,85 @@ if 'CHATS' not in st.session_state:
 st.write(st.session_state.selected_chat)
 st.write(st.session_state.current_chat)
 
+# --- Chat Management Functions---
+
 #create our clear all chats function
 def clear_all_chats():
-    st.session_state['CHATS'] = {"role": "system", "content": config.SYSTEM_MESSAGE}
-    st.session_state.chat_history = ['Chat 1']
+    st.session_state['CHATS'] = [INITIAL_CHAT_HISTORY.copy()]
+    st.session_state['CHAT_NAMES'] = ['Chat 1']
+    st.session_state.messages = st.session_state['CHATS'][0].copy()
     st.session_state.current_chat = 0
     st.session_state.selected_chat = 0
 
 #create our new chat function
 def new_chat():
+    #save the history of the current chat before switching away
+    st.session_state['CHATS'][st.session_state.current_chat] = st.session_state.messages
+
+    #prepare the new chat
     CHAT_COUNT = len(st.session_state['CHAT_NAMES'])
-    st.write(CHAT_COUNT)
     CHAT_NAME = "Chat " + str(CHAT_COUNT+1)
-    st.session_state['CHATS'].append({"role": "system", "content": config.SYSTEM_MESSAGE})
-    st.session_state.chat_history.append(CHAT_NAME)
-    st.write(st.session_state['CHATS'])
+    
+    #append a new, complete chat history (a list of dictionaries)
+    st.session_state['CHATS'].append(INITIAL_CHAT_HISTORY.copy()) 
+    st.session_state['CHAT_NAMES'].append(CHAT_NAME)
+    
+    #switch to the new chat
+    new_chat_index = len(st.session_state['CHAT_NAMES']) - 1
+    st.session_state.current_chat = new_chat_index
+    st.session_state.selected_chat = new_chat_index
+    st.session_state.messages = st.session_state['CHATS'][new_chat_index]
+
 
 #create our chat switching function
 def chat_switch(target_chat):
-    st.write(st.session_state.messages)
+    #save the history of the chat we are leaving
     st.session_state['CHATS'][st.session_state.current_chat] = st.session_state.messages
+    
+    #load the history of the chat we are switching to
     st.session_state.messages = st.session_state['CHATS'][target_chat]
     st.session_state.current_chat = target_chat
 
-#initializes the messages with the system prompt
+#initializes the messages for the current view
 if 'messages' not in st.session_state:
-    st.session_state.messages = [{"role": "system","content": config.SYSTEM_MESSAGE}]
+    #initialize messages with the first chat's history
+    st.session_state.messages = st.session_state['CHATS'][st.session_state.current_chat].copy()
 
-    #have the chatbot initiate conversation
-    st.session_state.messages.append({'role': 'assistant', 'content': 'Hello! I am Bob. Please let me know how I can best assist you today.'}) 
-
+# --- Message Display Loop ---
 
 #for all the messages we have in the session state --> display the message content
 for message in st.session_state["messages"]:
-    if message["role"] != "system":
-            #if role is user display user avatar and put in container
-            if(message["role"] == "user"):
-                with unique_message("user"):
-                    with st.chat_message("user", avatar="Assets/User_Icon.png"):
-                        st.markdown(message["content"])
-        
-            else:
-            #if role is assistant display assistant avatar
-                with st.chat_message("asssistant", avatar="Assets/smiley.jpg"):
+    # Check if the message is a dictionary (FIXES TypeError: string indices must be integers)
+    if isinstance(message, dict) and message["role"] != "system":
+        #if role is user display user avatar and put in container
+        if(message["role"] == "user"):
+            with unique_message("user"):
+                with st.chat_message("user", avatar="Assets/User_Icon.png"):
                     st.markdown(message["content"])
+    
+        else:
+        #if role is assistant display assistant avatar
+            with st.chat_message("asssistant", avatar="Assets/smiley.jpg"):
+                st.markdown(message["content"])
 
+
+# --- Sidebar UI ---
 
 st.sidebar.title("BOB A.I.")
 with st.sidebar:
     st.button("+New Chat", key="new_chat_button", on_click=new_chat) #button to start a new chat
 
-    #if it doesn't already exist, make it, fill with CHAT_NAMES list
-    if 'chat_history' not in st.session_state:
-        st.session_state['chat_history'] = st.session_state['CHAT_NAMES']
-
-    #make a select box to view the previous chats
-    chatHistorySelectBox = st.selectbox("View Chat History", st.session_state.chat_history, index = 0)
+    #the list holding the chat names is CHAT_NAMES, but this uses a local reference
+    chatHistorySelectBox = st.selectbox(
+        "View Chat History", 
+        st.session_state['CHAT_NAMES'], 
+        index=st.session_state.selected_chat
+    )
 
     #update select box variable
-    st.session_state.selected_chat = st.session_state.chat_history.index(chatHistorySelectBox)
-    st.write(st.session_state.chat_history.index(chatHistorySelectBox))
+    #find the index of the selected chat name
+    st.session_state.selected_chat = st.session_state['CHAT_NAMES'].index(chatHistorySelectBox)
+    st.write(st.session_state.selected_chat)
 
     #switch chats if needed
     if(st.session_state.current_chat != st.session_state.selected_chat):
@@ -105,6 +132,7 @@ with st.sidebar:
         if files_uploaded.type == 'text/plain': #if the file i sjust plain text
             file_contents = files_uploaded.read().decode("utf-8") #read and decode the file (put that in file data)
             st.session_state.messages.append({'role': 'system', 'content': f"A file has been uploaded named: {files_uploaded.name} The contents of the file is: {file_contents}"}) #tell the assistant what the file is, but do not print this out
+        
         elif files_uploaded.type == 'application/pdf': #if the file is a pdf
             file_contents = PdfReader(files_uploaded) #read and decode the file (put that in file data)
             number_of_pages = len(file_contents.pages) #find the number of pages
@@ -112,19 +140,22 @@ with st.sidebar:
             for i in range(number_of_pages): 
                 page = file_contents.pages[i] 
                 file_text = page.extract_text()
-                print(f"A file has been uploaded named: {files_uploaded.name} \n The contents of page {i+1} of the file is: {file_text} \n The file is {number_of_pages} pages long.")
+                #system message for LLM (append for each page)
                 st.session_state.messages.append({'role': 'system', 'content': f"A file has been uploaded named: {files_uploaded.name} \n The contents of page {i+1} the file is: {file_text} \n The file is {number_of_pages} pages long."}) #tell the assistant what the file is, but do not print this out
+        
         else:
             print("There's an issue with finding the file type dawg")
             st.session_state.messages.append({'role': 'system', 'content': "There's an issue with the file type dawg -  Coder dudes need to fix thisssss"}) #tell the assistant what the file is, but do not print this out
 
-
-
     st.button("-Clear All Chats", key="clear_chat_button", on_click=clear_all_chats) #button to clear all chats
+# --- Main Chat Logic ---
 
 def generate_response():
+    #only pass non-system messages (or the last few if context is long) 
+    #for simplicity, we pass all messages including the hidden system prompt for now
     response = ollama.chat(model=MODEL, stream=True, messages=st.session_state.messages) #will get the response from the model
 
+    st.session_state["full_message"] = "" #reset full message before generation
     for chunk in response:
         token = chunk["message"]["content"] #token is getting the chunk content 
         st.session_state["full_message"] += token #adds to the full message so far
@@ -133,10 +164,13 @@ def generate_response():
 
 if prompt:= st.chat_input("Type here", key="chat_input_styled"): #this text will show up in the input bar
     st.session_state.messages.append({"role": "user", "content": prompt}) #if the user types a prompt append it
+    
+    #display the user prompt
     with unique_message("user"):
         with st.chat_message("user", avatar="Assets/User_Icon.png"):
-            st.markdown(prompt) #display prompt
-    st.session_state['full_message'] = "" #defines a session state for the full message, empty at first as no request has yet been made
+            st.markdown(prompt) 
+    
+    #generate and display the assistant response
     with st.chat_message("assistant", avatar="Assets/smiley.jpg"):
         stream = generate_response()
         response = st.write_stream(stream) #write the stream response
