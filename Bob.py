@@ -13,10 +13,10 @@ from pypdf import PdfReader #in venv --> pip install pypdf
 import pandas as pd #in venv --> pip install pandas, pip install tabulate
 from docx import Document #in venv --> pip install python-docx
 
-
 #also note, for installations you should also be able to do pip install -r requirements.txt (all of the requirements should be in there)
 
 if __name__ == "__main__":
+
     st.set_page_config(layout="wide")
 
     #define the standard initial messages for a new chat
@@ -122,7 +122,7 @@ if __name__ == "__main__":
                     st.markdown(message["content"])
 
 
-    # --- Sidebar UI ---
+    # --- Sidebar ---
 
     st.sidebar.title("BOB A.I.")
     with st.sidebar:
@@ -240,6 +240,7 @@ if __name__ == "__main__":
     def generate_response():
         #only pass non-system messages (or the last few if context is long) 
         #for simplicity, we pass all messages including the hidden system prompt for now
+    
         response = ollama.chat(model=MODEL, stream=True, messages=st.session_state.messages) #will get the response from the model
 
         st.session_state["full_message"] = "" #reset full message before generation
@@ -247,6 +248,9 @@ if __name__ == "__main__":
             token = chunk["message"]["content"] #token is getting the chunk content 
             st.session_state["full_message"] += token #adds to the full message so far
             yield token #display the token
+
+
+
 
 
     if prompt := st.chat_input("Type here", key="chat_input_styled"): #this text will show up in the input bar
@@ -257,9 +261,23 @@ if __name__ == "__main__":
             with st.chat_message("user", avatar=user_avatar):
                 st.markdown(prompt) 
         
-        #generate and display the assistant response
-        with st.chat_message("assistant", avatar=assistant_avatar):
-            stream = generate_response()
-            response = st.write_stream(stream) #write the stream response
-            st.session_state.messages.append({'role': 'assistant', 'content': response}) #append assitant response into content
+
+        try:
+            #generate and display the assistant response
+            with st.chat_message("assistant", avatar=assistant_avatar):
+                stream = generate_response()
+                response = st.write_stream(stream) #write the stream response
+                st.session_state.messages.append({'role': 'assistant', 'content': response}) #append assitant response into content
+        except Exception as e: #if ollama isn't running, there will be an error, attempt to run ollama, if that fails, provide instructions for how to get ollama
+            st.error("Attempting to start Ollama . . . Please wait a few seconds and then try your prompt again.")
+            os.system("ollama serve")
+            if os.system("pgrep ollama") != 0:
+                st.error("It appears there was an error connecting to the Ollama model. Please ensure that Ollama is installed and the model llava:7b is downloaded. ")
+                st.error("If Ollama is already installed, please try to manualy run it by entering the command 'ollama serve' in your terminal, and then rerun or reload Bob.")
+                st.error("To install Ollama: visit https://ollama.com/ and download.")
+                st.error("Once ollama is installed, run the command 'ollama run llava:7b' in your terminal to download the model.")
+                st.error( "Please consult the setup documentation for further details.")
+            else:
+                st.error("Ollama has started successfully! Feel free to continue our conversation now!") #if ollama actually does run, it technically shouldn't reach here.... but just in case
+            st.stop()
             

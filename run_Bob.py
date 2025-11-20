@@ -18,4 +18,5 @@ def find_path(file_path):
 # run Bob, streamlit run Bob.py (typical command we put in console), and then make the port 8501, very important the port is 8501 
 if __name__ == "__main__":
     sys.argv = ["streamlit", "run", find_path("Bob.py"), "--server.port=8501"]
+
     sys.exit(stcli.main())
