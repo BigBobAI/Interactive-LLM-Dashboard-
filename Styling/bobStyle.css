@@ -5,7 +5,7 @@
     width: 350px !important;
 }
 
-/*Styling the header for the sidebar*/
+/*Styling the header for the sidebar!*/
 [data-testid="stSidebar"] h1 {
     font-size: 40px; 
 }
