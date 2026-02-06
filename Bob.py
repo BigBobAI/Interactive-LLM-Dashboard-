@@ -7,15 +7,23 @@ os.environ["STREAMLIT_GLOBAL_DEVELOPMENT_MODE"] = "false"
 import sys
 import config 
 import uuid 
+
+#also note, for installations you should also be able to do pip install -r requirements.txt (all of the requirements should be in there)
+
 import streamlit as st #in venv --> pip install streamlit
 import ollama #in venv --> pip install ollama
 from pypdf import PdfReader #in venv --> pip install pypdf
 import pandas as pd #in venv --> pip install pandas, pip install tabulate
 from docx import Document #in venv --> pip install python-docx
 
-#this comment is being added for test purposes
+from docling.document_converter import DocumentConverter #in venv --> pip install docling
 
-#also note, for installations you should also be able to do pip install -r requirements.txt (all of the requirements should be in there)
+#template base, research
+source = "https://arxiv.org/pdf/2408.09869"
+converter = DocumentConverter()
+doc = converter.convert(source).document
+print(doc.export_to_markdown())
+
 
 if __name__ == "__main__":
 
