@@ -7,7 +7,7 @@ os.environ["STREAMLIT_GLOBAL_DEVELOPMENT_MODE"] = "false"
 import sys
 import config 
 import uuid 
-import requests #testing Ben DO NOT TOUCH
+import requests
 import streamlit as st #in venv --> pip install streamlit
 import ollama #in venv --> pip install ollama
 from pypdf import PdfReader #in venv --> pip install pypdf
@@ -47,7 +47,7 @@ if __name__ == "__main__":
         return st.container(key=f"{name}-{uuid.uuid4()}")
 
     MODEL = 'llava:7b' #this is the model we are using,  if you don't already have this on your computer in terminal do: ollama run llava:7b
-    #ben warmup process (hopefully will fix)
+    #ben warmup process
     def warmup_model():
         try:
             requests.post(
@@ -60,9 +60,9 @@ if __name__ == "__main__":
 
 
     # --- Session State Initialization---
-
+    #This loads the model and keeps in active state
     if "MODEL_WARMED" not in st.session_state:
-        with st.spinner("Loading Bob Model (first run only)"):
+        with st.spinner("Loading Big Bob Model"):
             warmup_model()
         st.session_state["MODEL_WARMED"] = True
 
