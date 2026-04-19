@@ -210,9 +210,6 @@ if __name__ == "__main__":
                 elif st.session_state.current_msg == len(st.session_state.messages)-2:
                     st.session_state.current_msg = -1
                     st.session_state.chat_input_styled = ""
-                    
-    st.write(st.session_state.current_msg)
-    st.write(len(st.session_state.messages)-2)
       
     #set the avatars for the user and assistant (this is important for making the exe)
     user_avatar = find_path("Assets/User_Icon.png")
