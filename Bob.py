@@ -15,6 +15,7 @@ import pandas as pd #in venv --> pip install pandas, pip install tabulate
 from docx import Document #in venv --> pip install python-docx
 from docling.document_converter import DocumentConverter
 from PIL import Image 
+import streamlit_hotkeys as hotkeys
 
 #also note, for installations you should also be able to do pip install -r requirements.txt (all of the requirements should be in there)
 
@@ -83,6 +84,7 @@ if __name__ == "__main__":
         st.session_state['FILES'] = [[]]
         st.session_state.current_chat = 0
         st.session_state.selected_chat = 0   
+        st.session_state.current_msg = -1
 
     # --- Chat Management Functions---
 
@@ -94,6 +96,7 @@ if __name__ == "__main__":
         st.session_state.messages = st.session_state['CHATS'][0].copy()
         st.session_state.current_chat = 0
         st.session_state.selected_chat = 0
+        st.session_state.current_msg = -1
 
     #create our new chat function
     def new_chat():
@@ -114,6 +117,9 @@ if __name__ == "__main__":
         st.session_state.current_chat = new_chat_index
         st.session_state.selected_chat = new_chat_index
         st.session_state.messages = st.session_state['CHATS'][new_chat_index]
+        
+        st.session_state.chat_input_styled = ""
+        st.session_state.current_msg = -1
 
     #create our chat switching function
     def chat_switch(target_chat):
@@ -126,6 +132,9 @@ if __name__ == "__main__":
 
         #load the history of the chat we are switching to
         st.session_state.messages = st.session_state['CHATS'][target_chat]
+        
+        st.session_state.chat_input_styled = ""
+        st.session_state.current_msg = -1
 
     def delete_chat(chat_index: int): #delete single chat function 
         if len(st.session_state['CHATS']) <= 1: #dont allow deleting last chat
@@ -176,8 +185,35 @@ if __name__ == "__main__":
         #initialize messages with the first chat's history
         st.session_state.messages = st.session_state['CHATS'][st.session_state.current_chat].copy()
 
-    # --- Message Display Loop ---
-
+    #activate our hotkey for the up arrow 
+    hotkeys.activate([
+        hotkeys.hk("prevMsg", "ArrowUp"),
+        hotkeys.hk("nextMsg", "ArrowDown")
+    ])
+    
+    #when the up arrow is pressed, autofill the previous message sent
+    if hotkeys.pressed("prevMsg"):
+        if len(st.session_state.messages) > 2:
+            if st.session_state.current_msg == -1:
+                st.session_state.current_msg = len(st.session_state.messages)
+            if(st.session_state.current_msg > 2):
+                st.session_state.current_msg = st.session_state.current_msg - 2
+                st.session_state.chat_input_styled = st.session_state.messages[st.session_state.current_msg]["content"]
+            
+    #when the down arrow is pressed, autofill the next message sent
+    if hotkeys.pressed("nextMsg"):
+        if len(st.session_state.messages) > 2:
+            if st.session_state.current_msg != -1:
+                if st.session_state.current_msg < len(st.session_state.messages)-2:
+                    st.session_state.current_msg = st.session_state.current_msg + 2
+                    st.session_state.chat_input_styled = st.session_state.messages[st.session_state.current_msg]["content"]
+                elif st.session_state.current_msg == len(st.session_state.messages)-2:
+                    st.session_state.current_msg = -1
+                    st.session_state.chat_input_styled = ""
+                    
+    st.write(st.session_state.current_msg)
+    st.write(len(st.session_state.messages)-2)
+      
     #set the avatars for the user and assistant (this is important for making the exe)
     user_avatar = find_path("Assets/User_Icon.png")
     assistant_avatar = find_path("Assets/smiley.jpg")
@@ -293,6 +329,7 @@ if __name__ == "__main__":
 
                     if "image" in files_uploaded[i].type: #if the file is an image
                         image = Image.open(file_path) #open the image file
+                        st.session_state['FILES'][st.session_state.current_chat].append(file_path.split("Bob_Data/")[1]) #add the image file to the current chat file list.
                         image_prompt = "An image file has been uploaded named: " + files_uploaded[i].name + "Identify what is in the image. Give detail." 
                         image_response = ollama.chat(
                             model="llava:7b",
@@ -532,6 +569,7 @@ if __name__ == "__main__":
 
     if prompt := st.chat_input("Type here", key="chat_input_styled"): #this text will show up in the input bar
         st.session_state.messages.append({"role": "user", "content": prompt}) #if the user types a prompt append it
+        st.session_state.current_msg = -1
         
         #display the user prompt
         with unique_message("user"):
@@ -557,4 +595,3 @@ if __name__ == "__main__":
             else:
                 st.error("Ollama has started successfully! Feel free to continue our conversation now!") #if ollama actually does run, it technically shouldn't reach here.... but just in case
             st.stop()
-        
