@@ -4,6 +4,7 @@ ask questions about the soucre, recieve answers, and check chat history.
 
 -------------------------------
 ....Overall Setup....
+This fork is mine now - Autumn
 
 Notes for ollama:
 Download ollama from site: https://ollama.com/download
@@ -24,6 +25,12 @@ Make sure you have pypdf installed.
 To do this:
     --> pip install pypdf
     --> pip3 install pypdf (if regular pip is not working)
+
+Also make sure you have Pandas and the docx reader installed.
+To do this:
+    --> pip install Pandas
+    --> pip install tabulate
+    --> pip install python-docx
 -------------------------------
 ....Other Notes....
 
@@ -46,7 +53,16 @@ In order to run at all (for streamlit run Bob.py) you MUST be in the venv. To do
 Don't forget to do ollama serve in normal terminal as well.
 
 -------------------------------
-Docker Information
 
-docker build -t bob-docker .
-docker run -p 8501:8501 bob-docker
+Pyinstaller Information
+ To make the executable: (will go in the dist folder) pyinstaller run_Bob.spec 
+(This will make the executable in the dist folder)
+Troubleshooting for port issue:
+In terminal do: lsof -i :8501 
+^^(This will show the processes with that port)..... kill them: kill -9 <PID>
+
+If pyinstaller stops working try:
+Deleting and recreating venv
+Uninstalling and reinstalling pyinstaller
+Deleting and reinstalling python from official site
+Further troubleshooting will be added if this stops working again. 

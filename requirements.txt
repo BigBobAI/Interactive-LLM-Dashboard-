@@ -1,4 +1,7 @@
 #requirements needed to be installed
-streamlit
+streamlit==1.50.0
 ollama
 pypdf
+pandas
+python-docx
+docling

@@ -1,0 +1,1765 @@
+('/Users/kaylinwilley/Documents/Assorted School/Senior '
+ 'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources',
+ 'docling_parse/pdf_resources',
+ [],
+ 'DATA',
+ [('docling_parse/pdf_resources/cmap-resources.txt',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources.txt',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/Microsoft/Trebuchet_MS_Bold_Italic.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/Microsoft/Trebuchet_MS_Bold_Italic.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/Microsoft/Verdana.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/Microsoft/Verdana.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/Microsoft/Times_New_Roman_Bold_Italic.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/Microsoft/Times_New_Roman_Bold_Italic.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/Microsoft/Arial_Italic.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/Microsoft/Arial_Italic.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/Microsoft/Times_New_Roman_Bold.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/Microsoft/Times_New_Roman_Bold.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/Microsoft/Arial.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/Microsoft/Arial.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/Microsoft/lucon.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/Microsoft/lucon.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/Microsoft/Times_New_Roman_Italic.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/Microsoft/Times_New_Roman_Italic.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/Microsoft/Georgia_Bold.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/Microsoft/Georgia_Bold.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/Microsoft/Times_New_Roman.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/Microsoft/Times_New_Roman.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/Microsoft/Trebuchet_MS_Italic.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/Microsoft/Trebuchet_MS_Italic.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/Microsoft/Georgia_Italic.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/Microsoft/Georgia_Italic.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/Microsoft/slkscrb.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/Microsoft/slkscrb.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/Microsoft/Verdana_Bold.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/Microsoft/Verdana_Bold.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/Microsoft/slkscr.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/Microsoft/slkscr.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/Microsoft/slkscre.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/Microsoft/slkscre.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/Microsoft/Arial_Bold.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/Microsoft/Arial_Bold.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/Microsoft/Trebuchet_MS_Bold.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/Microsoft/Trebuchet_MS_Bold.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/Microsoft/Verdana_Italic.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/Microsoft/Verdana_Italic.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/Microsoft/Georgia.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/Microsoft/Georgia.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/Microsoft/Arial_Bold_Italic.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/Microsoft/Arial_Bold_Italic.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/Microsoft/Verdana_Bold_Italic.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/Microsoft/Verdana_Bold_Italic.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/Microsoft/Trebuchet_MS.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/Microsoft/Trebuchet_MS.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/Microsoft/Georgia_Bold_Italic.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/Microsoft/Georgia_Bold_Italic.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/Microsoft/slkscreb.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/Microsoft/slkscreb.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/Microsoft/duplicates/Courier.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/Microsoft/duplicates/Courier.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/Microsoft/duplicates/Times-BoldItalic.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/Microsoft/duplicates/Times-BoldItalic.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/Microsoft/duplicates/Helvetica-Bold.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/Microsoft/duplicates/Helvetica-Bold.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/Microsoft/duplicates/verdanai.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/Microsoft/duplicates/verdanai.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/Microsoft/duplicates/timesbi.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/Microsoft/duplicates/timesbi.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/Microsoft/duplicates/Courier-BoldOblique.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/Microsoft/duplicates/Courier-BoldOblique.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/Microsoft/duplicates/Courier-Oblique.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/Microsoft/duplicates/Courier-Oblique.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/Microsoft/duplicates/Times-Italic.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/Microsoft/duplicates/Times-Italic.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/Microsoft/duplicates/times.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/Microsoft/duplicates/times.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/Microsoft/duplicates/ZapfDingbats.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/Microsoft/duplicates/ZapfDingbats.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/Microsoft/duplicates/verdanab.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/Microsoft/duplicates/verdanab.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/Microsoft/duplicates/timesi.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/Microsoft/duplicates/timesi.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/Microsoft/duplicates/timesbd.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/Microsoft/duplicates/timesbd.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/Microsoft/duplicates/Helvetica.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/Microsoft/duplicates/Helvetica.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/Microsoft/duplicates/Times-Bold.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/Microsoft/duplicates/Times-Bold.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/Microsoft/duplicates/Helvetica-Oblique.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/Microsoft/duplicates/Helvetica-Oblique.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/Microsoft/duplicates/Helvetica-BoldOblique.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/Microsoft/duplicates/Helvetica-BoldOblique.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/Microsoft/duplicates/Courier-Bold.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/Microsoft/duplicates/Courier-Bold.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/Microsoft/duplicates/Times-Roman.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/Microsoft/duplicates/Times-Roman.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/Microsoft/undefined/php_verdanab.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/Microsoft/undefined/php_verdanab.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/Microsoft/undefined/php_Helvetica.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/Microsoft/undefined/php_Helvetica.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/Microsoft/undefined/php_Times-Italic.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/Microsoft/undefined/php_Times-Italic.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/Microsoft/undefined/php_verdana.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/Microsoft/undefined/php_verdana.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/Microsoft/undefined/php_Times-Roman.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/Microsoft/undefined/php_Times-Roman.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/Microsoft/undefined/php_arial.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/Microsoft/undefined/php_arial.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/Microsoft/undefined/php_Courier.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/Microsoft/undefined/php_Courier.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/Microsoft/undefined/php_Times-Bold.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/Microsoft/undefined/php_Times-Bold.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/Microsoft/undefined/php_Courier-Bold.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/Microsoft/undefined/php_Courier-Bold.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/Microsoft/undefined/php_Helvetica-Bold.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/Microsoft/undefined/php_Helvetica-Bold.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/TeX/eusb5.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/TeX/eusb5.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/TeX/eurb10.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/TeX/eurb10.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/TeX/eufm5.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/TeX/eufm5.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/TeX/cmsltt10.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/TeX/cmsltt10.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/TeX/msam5.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/TeX/msam5.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/TeX/eufb10.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/TeX/eufb10.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/TeX/lasy10.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/TeX/lasy10.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/TeX/cmtex10.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/TeX/cmtex10.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/TeX/cmex9.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/TeX/cmex9.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/TeX/msam7.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/TeX/msam7.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/TeX/lcircle1.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/TeX/lcircle1.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/TeX/eufm7.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/TeX/eufm7.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/TeX/msam6.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/TeX/msam6.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/TeX/eusb7.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/TeX/eusb7.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/TeX/cmssqi8.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/TeX/cmssqi8.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/TeX/cmex8.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/TeX/cmex8.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/TeX/cmr9.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/TeX/cmr9.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/TeX/cmsy10.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/TeX/cmsy10.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/TeX/lcmssi8.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/TeX/lcmssi8.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/TeX/eusm10.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/TeX/eusm10.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/TeX/cmr8.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/TeX/cmr8.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/TeX/cmbsy10.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/TeX/cmbsy10.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/TeX/cmitt10.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/TeX/cmitt10.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/TeX/wncyi10.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/TeX/wncyi10.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/TeX/lcmss8.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/TeX/lcmss8.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/TeX/lasy8.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/TeX/lasy8.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/TeX/wncyr10.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/TeX/wncyr10.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/TeX/cmtex9.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/TeX/cmtex9.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/TeX/cmdunh10.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/TeX/cmdunh10.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/TeX/cmtex8.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/TeX/cmtex8.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/TeX/cmfi10.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/TeX/cmfi10.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/TeX/lasy9.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/TeX/lasy9.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/TeX/lcirclew.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/TeX/lcirclew.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/TeX/cmu10.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/TeX/cmu10.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/TeX/cmmib5.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/TeX/cmmib5.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/TeX/msbm5.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/TeX/msbm5.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/TeX/cmssi17.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/TeX/cmssi17.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/TeX/cmmi9.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/TeX/cmmi9.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/TeX/cmmi8.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/TeX/cmmi8.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/TeX/cmbxsl10.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/TeX/cmbxsl10.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/TeX/cmcsc10.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/TeX/cmcsc10.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/TeX/cmtt10.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/TeX/cmtt10.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/TeX/cmex10.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/TeX/cmex10.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/TeX/eurb7.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/TeX/eurb7.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/TeX/cmr10.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/TeX/cmr10.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/TeX/cmmib6.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/TeX/cmmib6.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/TeX/msbm6.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/TeX/msbm6.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/TeX/linew10.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/TeX/linew10.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/TeX/cmr12.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/TeX/cmr12.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/TeX/eurb5.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/TeX/eurb5.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/TeX/cmtt12.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/TeX/cmtt12.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/TeX/cmti8.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/TeX/cmti8.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/TeX/lasyb10.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/TeX/lasyb10.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/TeX/lcmssb8.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/TeX/lcmssb8.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/TeX/cmti9.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/TeX/cmti9.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/TeX/msbm7.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/TeX/msbm7.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/TeX/cmmib7.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/TeX/cmmib7.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/TeX/euex7.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/TeX/euex7.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/TeX/cmr17.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/TeX/cmr17.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/TeX/cmbx9.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/TeX/cmbx9.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/TeX/wncysc10.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/TeX/wncysc10.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/TeX/cmsy6.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/TeX/cmsy6.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/TeX/cmti10.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/TeX/cmti10.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/TeX/cmssi10.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/TeX/cmssi10.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/TeX/cmsy7.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/TeX/cmsy7.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/TeX/cmbsy5.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/TeX/cmbsy5.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/TeX/cmbx8.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/TeX/cmbx8.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/TeX/msam10.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/TeX/msam10.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/TeX/cmbsy7.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/TeX/cmbsy7.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/TeX/cmsy5.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/TeX/cmsy5.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/TeX/cmssi12.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/TeX/cmssi12.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/TeX/cmti12.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/TeX/cmti12.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/TeX/cmvtt10.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/TeX/cmvtt10.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/TeX/cmfib8.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/TeX/cmfib8.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/TeX/cmbsy6.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/TeX/cmbsy6.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/TeX/cmbx6.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/TeX/cmbx6.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/TeX/cmsy9.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/TeX/cmsy9.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/TeX/cmsl8.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/TeX/cmsl8.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/TeX/cmsl9.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/TeX/cmsl9.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/TeX/cmsy8.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/TeX/cmsy8.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/TeX/cmbx7.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/TeX/cmbx7.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/TeX/cmbx10.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/TeX/cmbx10.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/TeX/cmff10.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/TeX/cmff10.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/TeX/cmssbx10.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/TeX/cmssbx10.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/TeX/cmbx12.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/TeX/cmbx12.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/TeX/cmbx5.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/TeX/cmbx5.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/TeX/cmbsy8.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/TeX/cmbsy8.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/TeX/cmbsy9.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/TeX/cmbsy9.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/TeX/eusb10.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/TeX/eusb10.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/TeX/line10.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/TeX/line10.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/TeX/cmmi6.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/TeX/cmmi6.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/TeX/cmmi7.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/TeX/cmmi7.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/TeX/cmmib10.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/TeX/cmmib10.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/TeX/eurm7.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/TeX/eurm7.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/TeX/euex9.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/TeX/euex9.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/TeX/cmmib9.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/TeX/cmmib9.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/TeX/msbm9.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/TeX/msbm9.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/TeX/eurm10.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/TeX/eurm10.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/TeX/eurm5.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/TeX/eurm5.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/TeX/cmti7.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/TeX/cmti7.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/TeX/cmmi5.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/TeX/cmmi5.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/TeX/wncyb10.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/TeX/wncyb10.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/TeX/eufm10.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/TeX/eufm10.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/TeX/cminch.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/TeX/cminch.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/TeX/msbm8.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/TeX/msbm8.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/TeX/cmmib8.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/TeX/cmmib8.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/TeX/euex8.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/TeX/euex8.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/TeX/cmb10.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/TeX/cmb10.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/TeX/cmssi8.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/TeX/cmssi8.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/TeX/cmsl10.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/TeX/cmsl10.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/TeX/cmss9.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/TeX/cmss9.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/TeX/cmr6.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/TeX/cmr6.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/TeX/lasy5.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/TeX/lasy5.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/TeX/cmr7.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/TeX/cmr7.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/TeX/cmss8.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/TeX/cmss8.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/TeX/cmssi9.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/TeX/cmssi9.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/TeX/cmss17.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/TeX/cmss17.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/TeX/cmtt8.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/TeX/cmtt8.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/TeX/cmr5.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/TeX/cmr5.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/TeX/lasy7.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/TeX/lasy7.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/TeX/cmssdc10.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/TeX/cmssdc10.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/TeX/lasy6.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/TeX/lasy6.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/TeX/cmtt9.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/TeX/cmtt9.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/TeX/cmsl12.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/TeX/cmsl12.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/TeX/msbm10.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/TeX/msbm10.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/TeX/cmssq8.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/TeX/cmssq8.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/TeX/cmmi12.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/TeX/cmmi12.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/TeX/cmss12.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/TeX/cmss12.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/TeX/eusm5.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/TeX/eusm5.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/TeX/cmcsc8.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/TeX/cmcsc8.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/TeX/eufb5.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/TeX/eufb5.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/TeX/cmbxti10.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/TeX/cmbxti10.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/TeX/cmcsc9.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/TeX/cmcsc9.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/TeX/wncyss10.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/TeX/wncyss10.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/TeX/cmtcsc10.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/TeX/cmtcsc10.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/TeX/msam8.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/TeX/msam8.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/TeX/euex10.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/TeX/euex10.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/TeX/eufb7.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/TeX/eufb7.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/TeX/eusm7.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/TeX/eusm7.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/TeX/msam9.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/TeX/msam9.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/TeX/cmex7.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/TeX/cmex7.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/TeX/cmss10.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/TeX/cmss10.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/custom/TeX/cmmi10.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/custom/TeX/cmmi10.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/standard/Courier.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/standard/Courier.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/standard/Times-BoldItalic.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/standard/Times-BoldItalic.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/standard/Helvetica-Bold.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/standard/Helvetica-Bold.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/standard/Courier-BoldOblique.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/standard/Courier-BoldOblique.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/standard/Courier-Oblique.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/standard/Courier-Oblique.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/standard/Times-Italic.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/standard/Times-Italic.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/standard/ZapfDingbats.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/standard/ZapfDingbats.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/standard/Helvetica.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/standard/Helvetica.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/standard/Symbol.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/standard/Symbol.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/standard/Times-Bold.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/standard/Times-Bold.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/standard/Helvetica-Oblique.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/standard/Helvetica-Oblique.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/standard/Helvetica-BoldOblique.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/standard/Helvetica-BoldOblique.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/standard/Courier-Bold.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/standard/Courier-Bold.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/fonts/standard/Times-Roman.afm',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/fonts/standard/Times-Roman.afm',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/LICENSE.md',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/LICENSE.md',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/VERSIONS.txt',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/VERSIONS.txt',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/README.md',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/README.md',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/deprecated/Adobe-Japan2-0/jisx0212-jp90.txt',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/deprecated/Adobe-Japan2-0/jisx0212-jp90.txt',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/deprecated/Adobe-Japan2-0/cid2code.txt',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/deprecated/Adobe-Japan2-0/cid2code.txt',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/deprecated/Adobe-Japan2-0/jisx0212-jp04.txt',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/deprecated/Adobe-Japan2-0/jisx0212-jp04.txt',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/deprecated/Adobe-Japan2-0/CMap/UniHojo-UTF32-V',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/deprecated/Adobe-Japan2-0/CMap/UniHojo-UTF32-V',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/deprecated/Adobe-Japan2-0/CMap/UniHojo-UTF8-H',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/deprecated/Adobe-Japan2-0/CMap/UniHojo-UTF8-H',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/deprecated/Adobe-Japan2-0/CMap/Hojo-EUC-V',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/deprecated/Adobe-Japan2-0/CMap/Hojo-EUC-V',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/deprecated/Adobe-Japan2-0/CMap/UniHojo-UCS2-V',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/deprecated/Adobe-Japan2-0/CMap/UniHojo-UCS2-V',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/deprecated/Adobe-Japan2-0/CMap/UniHojo-UTF16-H',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/deprecated/Adobe-Japan2-0/CMap/UniHojo-UTF16-H',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/deprecated/Adobe-Japan2-0/CMap/Hojo-H',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/deprecated/Adobe-Japan2-0/CMap/Hojo-H',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/deprecated/Adobe-Japan2-0/CMap/UniHojo-UTF8-V',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/deprecated/Adobe-Japan2-0/CMap/UniHojo-UTF8-V',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/deprecated/Adobe-Japan2-0/CMap/UniHojo-UTF32-H',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/deprecated/Adobe-Japan2-0/CMap/UniHojo-UTF32-H',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/deprecated/Adobe-Japan2-0/CMap/UniHojo-UCS2-H',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/deprecated/Adobe-Japan2-0/CMap/UniHojo-UCS2-H',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/deprecated/Adobe-Japan2-0/CMap/Hojo-EUC-H',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/deprecated/Adobe-Japan2-0/CMap/Hojo-EUC-H',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/deprecated/Adobe-Japan2-0/CMap/UniHojo-UTF16-V',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/deprecated/Adobe-Japan2-0/CMap/UniHojo-UTF16-V',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/deprecated/Adobe-Japan2-0/CMap/Adobe-Japan2-0',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/deprecated/Adobe-Japan2-0/CMap/Adobe-Japan2-0',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/deprecated/Adobe-Japan2-0/CMap/Hojo-V',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/deprecated/Adobe-Japan2-0/CMap/Hojo-V',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/Adobe-Identity-0/CMap/Identity-V',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/Adobe-Identity-0/CMap/Identity-V',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/Adobe-Identity-0/CMap/Identity-H',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/Adobe-Identity-0/CMap/Identity-H',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/Adobe-GB1-5/cid2code.txt',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/Adobe-GB1-5/cid2code.txt',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/Adobe-GB1-5/CMap/GBT-H',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/Adobe-GB1-5/CMap/GBT-H',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/Adobe-GB1-5/CMap/UniGB-UTF16-V',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/Adobe-GB1-5/CMap/UniGB-UTF16-V',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/Adobe-GB1-5/CMap/GBKp-EUC-H',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/Adobe-GB1-5/CMap/GBKp-EUC-H',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/Adobe-GB1-5/CMap/GB-V',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/Adobe-GB1-5/CMap/GB-V',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/Adobe-GB1-5/CMap/GBTpc-EUC-H',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/Adobe-GB1-5/CMap/GBTpc-EUC-H',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/Adobe-GB1-5/CMap/Adobe-GB1-0',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/Adobe-GB1-5/CMap/Adobe-GB1-0',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/Adobe-GB1-5/CMap/UniGB-UTF32-H',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/Adobe-GB1-5/CMap/UniGB-UTF32-H',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/Adobe-GB1-5/CMap/GB-EUC-V',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/Adobe-GB1-5/CMap/GB-EUC-V',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/Adobe-GB1-5/CMap/UniGB-UCS2-H',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/Adobe-GB1-5/CMap/UniGB-UCS2-H',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/Adobe-GB1-5/CMap/GBT-EUC-V',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/Adobe-GB1-5/CMap/GBT-EUC-V',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/Adobe-GB1-5/CMap/Adobe-GB1-1',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/Adobe-GB1-5/CMap/Adobe-GB1-1',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/Adobe-GB1-5/CMap/UniGB-UTF8-V',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/Adobe-GB1-5/CMap/UniGB-UTF8-V',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/Adobe-GB1-5/CMap/GBK-EUC-V',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/Adobe-GB1-5/CMap/GBK-EUC-V',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/Adobe-GB1-5/CMap/GBpc-EUC-H',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/Adobe-GB1-5/CMap/GBpc-EUC-H',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/Adobe-GB1-5/CMap/GBK2K-V',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/Adobe-GB1-5/CMap/GBK2K-V',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/Adobe-GB1-5/CMap/GBKp-EUC-V',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/Adobe-GB1-5/CMap/GBKp-EUC-V',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/Adobe-GB1-5/CMap/UniGB-UTF16-H',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/Adobe-GB1-5/CMap/UniGB-UTF16-H',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/Adobe-GB1-5/CMap/GBT-V',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/Adobe-GB1-5/CMap/GBT-V',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/Adobe-GB1-5/CMap/GB-H',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/Adobe-GB1-5/CMap/GB-H',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/Adobe-GB1-5/CMap/GBTpc-EUC-V',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/Adobe-GB1-5/CMap/GBTpc-EUC-V',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/Adobe-GB1-5/CMap/GBT-EUC-H',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/Adobe-GB1-5/CMap/GBT-EUC-H',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/Adobe-GB1-5/CMap/Adobe-GB1-4',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/Adobe-GB1-5/CMap/Adobe-GB1-4',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/Adobe-GB1-5/CMap/Adobe-GB1-3',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/Adobe-GB1-5/CMap/Adobe-GB1-3',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/Adobe-GB1-5/CMap/GB-EUC-H',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/Adobe-GB1-5/CMap/GB-EUC-H',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/Adobe-GB1-5/CMap/UniGB-UTF32-V',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/Adobe-GB1-5/CMap/UniGB-UTF32-V',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/Adobe-GB1-5/CMap/UniGB-UCS2-V',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/Adobe-GB1-5/CMap/UniGB-UCS2-V',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/Adobe-GB1-5/CMap/Adobe-GB1-2',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/Adobe-GB1-5/CMap/Adobe-GB1-2',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/Adobe-GB1-5/CMap/Adobe-GB1-5',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/Adobe-GB1-5/CMap/Adobe-GB1-5',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/Adobe-GB1-5/CMap/GBK2K-H',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/Adobe-GB1-5/CMap/GBK2K-H',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/Adobe-GB1-5/CMap/GBpc-EUC-V',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/Adobe-GB1-5/CMap/GBpc-EUC-V',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/Adobe-GB1-5/CMap/UniGB-UTF8-H',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/Adobe-GB1-5/CMap/UniGB-UTF8-H',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/Adobe-GB1-5/CMap/GBK-EUC-H',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/Adobe-GB1-5/CMap/GBK-EUC-H',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/Adobe-Korea1-2/cid2code.txt',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/Adobe-Korea1-2/cid2code.txt',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/Adobe-Korea1-2/CMap/KSCms-UHC-V',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/Adobe-Korea1-2/CMap/KSCms-UHC-V',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/Adobe-Korea1-2/CMap/KSC-EUC-H',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/Adobe-Korea1-2/CMap/KSC-EUC-H',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/Adobe-Korea1-2/CMap/KSC-V',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/Adobe-Korea1-2/CMap/KSC-V',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/Adobe-Korea1-2/CMap/UniKS-UTF16-H',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/Adobe-Korea1-2/CMap/UniKS-UTF16-H',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/Adobe-Korea1-2/CMap/Adobe-Korea1-0',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/Adobe-Korea1-2/CMap/Adobe-Korea1-0',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/Adobe-Korea1-2/CMap/Adobe-Korea1-1',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/Adobe-Korea1-2/CMap/Adobe-Korea1-1',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/Adobe-Korea1-2/CMap/UniKS-UCS2-H',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/Adobe-Korea1-2/CMap/UniKS-UCS2-H',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/Adobe-Korea1-2/CMap/UniKS-UTF32-V',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/Adobe-Korea1-2/CMap/UniKS-UTF32-V',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/Adobe-Korea1-2/CMap/KSC-Johab-H',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/Adobe-Korea1-2/CMap/KSC-Johab-H',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/Adobe-Korea1-2/CMap/KSCms-UHC-HW-V',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/Adobe-Korea1-2/CMap/KSCms-UHC-HW-V',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/Adobe-Korea1-2/CMap/UniKS-UTF8-V',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/Adobe-Korea1-2/CMap/UniKS-UTF8-V',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/Adobe-Korea1-2/CMap/KSCpc-EUC-V',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/Adobe-Korea1-2/CMap/KSCpc-EUC-V',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/Adobe-Korea1-2/CMap/KSCms-UHC-H',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/Adobe-Korea1-2/CMap/KSCms-UHC-H',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/Adobe-Korea1-2/CMap/UniKS-UTF16-V',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/Adobe-Korea1-2/CMap/UniKS-UTF16-V',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/Adobe-Korea1-2/CMap/KSC-H',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/Adobe-Korea1-2/CMap/KSC-H',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/Adobe-Korea1-2/CMap/KSC-EUC-V',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/Adobe-Korea1-2/CMap/KSC-EUC-V',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/Adobe-Korea1-2/CMap/UniKS-UCS2-V',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/Adobe-Korea1-2/CMap/UniKS-UCS2-V',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/Adobe-Korea1-2/CMap/Adobe-Korea1-2',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/Adobe-Korea1-2/CMap/Adobe-Korea1-2',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/Adobe-Korea1-2/CMap/KSCpc-EUC-H',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/Adobe-Korea1-2/CMap/KSCpc-EUC-H',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/Adobe-Korea1-2/CMap/UniKS-UTF8-H',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/Adobe-Korea1-2/CMap/UniKS-UTF8-H',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/Adobe-Korea1-2/CMap/KSCms-UHC-HW-H',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/Adobe-Korea1-2/CMap/KSCms-UHC-HW-H',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/Adobe-Korea1-2/CMap/KSC-Johab-V',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/Adobe-Korea1-2/CMap/KSC-Johab-V',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/Adobe-Korea1-2/CMap/UniKS-UTF32-H',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/Adobe-Korea1-2/CMap/UniKS-UTF32-H',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/Adobe-Japan1-7/jisx0212-jp90.txt',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/Adobe-Japan1-7/jisx0212-jp90.txt',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/Adobe-Japan1-7/jisx0213-jp90.txt',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/Adobe-Japan1-7/jisx0213-jp90.txt',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/Adobe-Japan1-7/jisx0208-jp90.txt',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/Adobe-Japan1-7/jisx0208-jp90.txt',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/Adobe-Japan1-7/cid2code.txt',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/Adobe-Japan1-7/cid2code.txt',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/Adobe-Japan1-7/jisx0212-jp04.txt',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/Adobe-Japan1-7/jisx0212-jp04.txt',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/Adobe-Japan1-7/jisx0213-jp04.txt',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/Adobe-Japan1-7/jisx0213-jp04.txt',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/Adobe-Japan1-7/jisx0208-jp04.txt',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/Adobe-Japan1-7/jisx0208-jp04.txt',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/Adobe-Japan1-7/CMap/78-EUC-V',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/Adobe-Japan1-7/CMap/78-EUC-V',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/Adobe-Japan1-7/CMap/UniJISX0213-UTF32-V',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/Adobe-Japan1-7/CMap/UniJISX0213-UTF32-V',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/Adobe-Japan1-7/CMap/UniJIS-UTF16-H',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/Adobe-Japan1-7/CMap/UniJIS-UTF16-H',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/Adobe-Japan1-7/CMap/Add-RKSJ-V',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/Adobe-Japan1-7/CMap/Add-RKSJ-V',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/Adobe-Japan1-7/CMap/EUC-V',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/Adobe-Japan1-7/CMap/EUC-V',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/Adobe-Japan1-7/CMap/Adobe-Japan1-4',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/Adobe-Japan1-7/CMap/Adobe-Japan1-4',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/Adobe-Japan1-7/CMap/Adobe-Japan1-3',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/Adobe-Japan1-7/CMap/Adobe-Japan1-3',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/Adobe-Japan1-7/CMap/UniJIS2004-UTF8-H',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/Adobe-Japan1-7/CMap/UniJIS2004-UTF8-H',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/Adobe-Japan1-7/CMap/90ms-RKSJ-V',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/Adobe-Japan1-7/CMap/90ms-RKSJ-V',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/Adobe-Japan1-7/CMap/Katakana',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/Adobe-Japan1-7/CMap/Katakana',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/Adobe-Japan1-7/CMap/UniJIS-UCS2-HW-H',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/Adobe-Japan1-7/CMap/UniJIS-UCS2-HW-H',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/Adobe-Japan1-7/CMap/Ext-RKSJ-H',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/Adobe-Japan1-7/CMap/Ext-RKSJ-H',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/Adobe-Japan1-7/CMap/UniJISPro-UCS2-V',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/Adobe-Japan1-7/CMap/UniJISPro-UCS2-V',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/Adobe-Japan1-7/CMap/UniJIS2004-UTF16-H',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/Adobe-Japan1-7/CMap/UniJIS2004-UTF16-H',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/Adobe-Japan1-7/CMap/Adobe-Japan1-2',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/Adobe-Japan1-7/CMap/Adobe-Japan1-2',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/Adobe-Japan1-7/CMap/Adobe-Japan1-5',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/Adobe-Japan1-7/CMap/Adobe-Japan1-5',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/Adobe-Japan1-7/CMap/90msp-RKSJ-V',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/Adobe-Japan1-7/CMap/90msp-RKSJ-V',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/Adobe-Japan1-7/CMap/UniJIS-UCS2-H',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/Adobe-Japan1-7/CMap/UniJIS-UCS2-H',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/Adobe-Japan1-7/CMap/Hankaku',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/Adobe-Japan1-7/CMap/Hankaku',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/Adobe-Japan1-7/CMap/Add-H',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/Adobe-Japan1-7/CMap/Add-H',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/Adobe-Japan1-7/CMap/RKSJ-H',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/Adobe-Japan1-7/CMap/RKSJ-H',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/Adobe-Japan1-7/CMap/78ms-RKSJ-V',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/Adobe-Japan1-7/CMap/78ms-RKSJ-V',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/Adobe-Japan1-7/CMap/UniJIS-UTF32-V',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/Adobe-Japan1-7/CMap/UniJIS-UTF32-V',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/Adobe-Japan1-7/CMap/UniJISX02132004-UTF32-V',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/Adobe-Japan1-7/CMap/UniJISX02132004-UTF32-V',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/Adobe-Japan1-7/CMap/Ext-V',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/Adobe-Japan1-7/CMap/Ext-V',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/Adobe-Japan1-7/CMap/UniJIS2004-UTF32-V',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/Adobe-Japan1-7/CMap/UniJIS2004-UTF32-V',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/Adobe-Japan1-7/CMap/78-RKSJ-H',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/Adobe-Japan1-7/CMap/78-RKSJ-H',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/Adobe-Japan1-7/CMap/UniJIS-UTF8-V',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/Adobe-Japan1-7/CMap/UniJIS-UTF8-V',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/Adobe-Japan1-7/CMap/NWP-H',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/Adobe-Japan1-7/CMap/NWP-H',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/Adobe-Japan1-7/CMap/78-H',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/Adobe-Japan1-7/CMap/78-H',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/Adobe-Japan1-7/CMap/90pv-RKSJ-H',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/Adobe-Japan1-7/CMap/90pv-RKSJ-H',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/Adobe-Japan1-7/CMap/H',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/Adobe-Japan1-7/CMap/H',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/Adobe-Japan1-7/CMap/83pv-RKSJ-H',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/Adobe-Japan1-7/CMap/83pv-RKSJ-H',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/Adobe-Japan1-7/CMap/UniJISPro-UTF8-V',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/Adobe-Japan1-7/CMap/UniJISPro-UTF8-V',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/Adobe-Japan1-7/CMap/Hiragana',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/Adobe-Japan1-7/CMap/Hiragana',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/Adobe-Japan1-7/CMap/EUC-H',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/Adobe-Japan1-7/CMap/EUC-H',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/Adobe-Japan1-7/CMap/UniJISX0213-UTF32-H',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/Adobe-Japan1-7/CMap/UniJISX0213-UTF32-H',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/Adobe-Japan1-7/CMap/78-EUC-H',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/Adobe-Japan1-7/CMap/78-EUC-H',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/Adobe-Japan1-7/CMap/WP-Symbol',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/Adobe-Japan1-7/CMap/WP-Symbol',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/Adobe-Japan1-7/CMap/UniJIS-UTF16-V',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/Adobe-Japan1-7/CMap/UniJIS-UTF16-V',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/Adobe-Japan1-7/CMap/Add-RKSJ-H',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/Adobe-Japan1-7/CMap/Add-RKSJ-H',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/Adobe-Japan1-7/CMap/Adobe-Japan1-0',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/Adobe-Japan1-7/CMap/Adobe-Japan1-0',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/Adobe-Japan1-7/CMap/90ms-RKSJ-H',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/Adobe-Japan1-7/CMap/90ms-RKSJ-H',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/Adobe-Japan1-7/CMap/Adobe-Japan1-7',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/Adobe-Japan1-7/CMap/Adobe-Japan1-7',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/Adobe-Japan1-7/CMap/UniJIS2004-UTF16-V',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/Adobe-Japan1-7/CMap/UniJIS2004-UTF16-V',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/Adobe-Japan1-7/CMap/Ext-RKSJ-V',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/Adobe-Japan1-7/CMap/Ext-RKSJ-V',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/Adobe-Japan1-7/CMap/UniJIS-UCS2-HW-V',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/Adobe-Japan1-7/CMap/UniJIS-UCS2-HW-V',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/Adobe-Japan1-7/CMap/UniJISPro-UCS2-HW-V',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/Adobe-Japan1-7/CMap/UniJISPro-UCS2-HW-V',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/Adobe-Japan1-7/CMap/Adobe-Japan1-6',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/Adobe-Japan1-7/CMap/Adobe-Japan1-6',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/Adobe-Japan1-7/CMap/Adobe-Japan1-1',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/Adobe-Japan1-7/CMap/Adobe-Japan1-1',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/Adobe-Japan1-7/CMap/UniJIS2004-UTF8-V',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/Adobe-Japan1-7/CMap/UniJIS2004-UTF8-V',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/Adobe-Japan1-7/CMap/UniJIS-UTF32-H',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/Adobe-Japan1-7/CMap/UniJIS-UTF32-H',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/Adobe-Japan1-7/CMap/Roman',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/Adobe-Japan1-7/CMap/Roman',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/Adobe-Japan1-7/CMap/Ext-H',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/Adobe-Japan1-7/CMap/Ext-H',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/Adobe-Japan1-7/CMap/UniJISX02132004-UTF32-H',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/Adobe-Japan1-7/CMap/UniJISX02132004-UTF32-H',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/Adobe-Japan1-7/CMap/90msp-RKSJ-H',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/Adobe-Japan1-7/CMap/90msp-RKSJ-H',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/Adobe-Japan1-7/CMap/UniJIS-UCS2-V',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/Adobe-Japan1-7/CMap/UniJIS-UCS2-V',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/Adobe-Japan1-7/CMap/Add-V',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/Adobe-Japan1-7/CMap/Add-V',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/Adobe-Japan1-7/CMap/RKSJ-V',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/Adobe-Japan1-7/CMap/RKSJ-V',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/Adobe-Japan1-7/CMap/78ms-RKSJ-H',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/Adobe-Japan1-7/CMap/78ms-RKSJ-H',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/Adobe-Japan1-7/CMap/90pv-RKSJ-V',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/Adobe-Japan1-7/CMap/90pv-RKSJ-V',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/Adobe-Japan1-7/CMap/78-V',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/Adobe-Japan1-7/CMap/78-V',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/Adobe-Japan1-7/CMap/V',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/Adobe-Japan1-7/CMap/V',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/Adobe-Japan1-7/CMap/78-RKSJ-V',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/Adobe-Japan1-7/CMap/78-RKSJ-V',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/Adobe-Japan1-7/CMap/UniJIS2004-UTF32-H',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/Adobe-Japan1-7/CMap/UniJIS2004-UTF32-H',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/Adobe-Japan1-7/CMap/NWP-V',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/Adobe-Japan1-7/CMap/NWP-V',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/Adobe-Japan1-7/CMap/UniJIS-UTF8-H',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/Adobe-Japan1-7/CMap/UniJIS-UTF8-H',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/Adobe-CNS1-7/cid2code.txt',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/Adobe-CNS1-7/cid2code.txt',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/Adobe-CNS1-7/CMap/B5pc-V',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/Adobe-CNS1-7/CMap/B5pc-V',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/Adobe-CNS1-7/CMap/UniCNS-UTF32-H',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/Adobe-CNS1-7/CMap/UniCNS-UTF32-H',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/Adobe-CNS1-7/CMap/CNS1-H',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/Adobe-CNS1-7/CMap/CNS1-H',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/Adobe-CNS1-7/CMap/HKdlb-B5-H',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/Adobe-CNS1-7/CMap/HKdlb-B5-H',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/Adobe-CNS1-7/CMap/HKscs-B5-V',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/Adobe-CNS1-7/CMap/HKscs-B5-V',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/Adobe-CNS1-7/CMap/HKm314-B5-V',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/Adobe-CNS1-7/CMap/HKm314-B5-V',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/Adobe-CNS1-7/CMap/HKgccs-B5-V',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/Adobe-CNS1-7/CMap/HKgccs-B5-V',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/Adobe-CNS1-7/CMap/HKdla-B5-V',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/Adobe-CNS1-7/CMap/HKdla-B5-V',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/Adobe-CNS1-7/CMap/Adobe-CNS1-1',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/Adobe-CNS1-7/CMap/Adobe-CNS1-1',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/Adobe-CNS1-7/CMap/Adobe-CNS1-6',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/Adobe-CNS1-7/CMap/Adobe-CNS1-6',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/Adobe-CNS1-7/CMap/UniCNS-UTF16-V',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/Adobe-CNS1-7/CMap/UniCNS-UTF16-V',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/Adobe-CNS1-7/CMap/UniCNS-UTF8-V',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/Adobe-CNS1-7/CMap/UniCNS-UTF8-V',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/Adobe-CNS1-7/CMap/Adobe-CNS1-7',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/Adobe-CNS1-7/CMap/Adobe-CNS1-7',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/Adobe-CNS1-7/CMap/CNS2-H',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/Adobe-CNS1-7/CMap/CNS2-H',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/Adobe-CNS1-7/CMap/Adobe-CNS1-0',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/Adobe-CNS1-7/CMap/Adobe-CNS1-0',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/Adobe-CNS1-7/CMap/ETen-B5-H',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/Adobe-CNS1-7/CMap/ETen-B5-H',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/Adobe-CNS1-7/CMap/B5-V',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/Adobe-CNS1-7/CMap/B5-V',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/Adobe-CNS1-7/CMap/ETHK-B5-H',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/Adobe-CNS1-7/CMap/ETHK-B5-H',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/Adobe-CNS1-7/CMap/ETenms-B5-V',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/Adobe-CNS1-7/CMap/ETenms-B5-V',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/Adobe-CNS1-7/CMap/UniCNS-UCS2-H',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/Adobe-CNS1-7/CMap/UniCNS-UCS2-H',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/Adobe-CNS1-7/CMap/CNS-EUC-H',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/Adobe-CNS1-7/CMap/CNS-EUC-H',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/Adobe-CNS1-7/CMap/HKm471-B5-V',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/Adobe-CNS1-7/CMap/HKm471-B5-V',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/Adobe-CNS1-7/CMap/CNS1-V',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/Adobe-CNS1-7/CMap/CNS1-V',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/Adobe-CNS1-7/CMap/B5pc-H',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/Adobe-CNS1-7/CMap/B5pc-H',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/Adobe-CNS1-7/CMap/UniCNS-UTF32-V',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/Adobe-CNS1-7/CMap/UniCNS-UTF32-V',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/Adobe-CNS1-7/CMap/HKscs-B5-H',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/Adobe-CNS1-7/CMap/HKscs-B5-H',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/Adobe-CNS1-7/CMap/HKm314-B5-H',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/Adobe-CNS1-7/CMap/HKm314-B5-H',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/Adobe-CNS1-7/CMap/HKdlb-B5-V',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/Adobe-CNS1-7/CMap/HKdlb-B5-V',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/Adobe-CNS1-7/CMap/Adobe-CNS1-5',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/Adobe-CNS1-7/CMap/Adobe-CNS1-5',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/Adobe-CNS1-7/CMap/Adobe-CNS1-2',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/Adobe-CNS1-7/CMap/Adobe-CNS1-2',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/Adobe-CNS1-7/CMap/UniCNS-UTF8-H',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/Adobe-CNS1-7/CMap/UniCNS-UTF8-H',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/Adobe-CNS1-7/CMap/CNS2-V',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/Adobe-CNS1-7/CMap/CNS2-V',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/Adobe-CNS1-7/CMap/HKgccs-B5-H',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/Adobe-CNS1-7/CMap/HKgccs-B5-H',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/Adobe-CNS1-7/CMap/HKdla-B5-H',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/Adobe-CNS1-7/CMap/HKdla-B5-H',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/Adobe-CNS1-7/CMap/Adobe-CNS1-3',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/Adobe-CNS1-7/CMap/Adobe-CNS1-3',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/Adobe-CNS1-7/CMap/Adobe-CNS1-4',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/Adobe-CNS1-7/CMap/Adobe-CNS1-4',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/Adobe-CNS1-7/CMap/UniCNS-UTF16-H',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/Adobe-CNS1-7/CMap/UniCNS-UTF16-H',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/Adobe-CNS1-7/CMap/ETenms-B5-H',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/Adobe-CNS1-7/CMap/ETenms-B5-H',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/Adobe-CNS1-7/CMap/HKm471-B5-H',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/Adobe-CNS1-7/CMap/HKm471-B5-H',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/Adobe-CNS1-7/CMap/CNS-EUC-V',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/Adobe-CNS1-7/CMap/CNS-EUC-V',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/Adobe-CNS1-7/CMap/UniCNS-UCS2-V',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/Adobe-CNS1-7/CMap/UniCNS-UCS2-V',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/Adobe-CNS1-7/CMap/ETen-B5-V',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/Adobe-CNS1-7/CMap/ETen-B5-V',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/Adobe-CNS1-7/CMap/B5-H',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/Adobe-CNS1-7/CMap/B5-H',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/Adobe-CNS1-7/CMap/ETHK-B5-V',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/Adobe-CNS1-7/CMap/ETHK-B5-V',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/Adobe-KR-9/cid2code.txt',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/Adobe-KR-9/cid2code.txt',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/Adobe-KR-9/CMap/Adobe-KR-9',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/Adobe-KR-9/CMap/Adobe-KR-9',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/Adobe-KR-9/CMap/Adobe-KR-7',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/Adobe-KR-9/CMap/Adobe-KR-7',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/Adobe-KR-9/CMap/Adobe-KR-0',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/Adobe-KR-9/CMap/Adobe-KR-0',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/Adobe-KR-9/CMap/Adobe-KR-1',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/Adobe-KR-9/CMap/Adobe-KR-1',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/Adobe-KR-9/CMap/Adobe-KR-6',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/Adobe-KR-9/CMap/Adobe-KR-6',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/Adobe-KR-9/CMap/UniAKR-UTF8-H',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/Adobe-KR-9/CMap/UniAKR-UTF8-H',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/Adobe-KR-9/CMap/Adobe-KR-8',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/Adobe-KR-9/CMap/Adobe-KR-8',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/Adobe-KR-9/CMap/UniAKR-UTF32-H',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/Adobe-KR-9/CMap/UniAKR-UTF32-H',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/Adobe-KR-9/CMap/Adobe-KR-3',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/Adobe-KR-9/CMap/Adobe-KR-3',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/Adobe-KR-9/CMap/Adobe-KR-4',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/Adobe-KR-9/CMap/Adobe-KR-4',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/Adobe-KR-9/CMap/Adobe-KR-5',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/Adobe-KR-9/CMap/Adobe-KR-5',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/Adobe-KR-9/CMap/Adobe-KR-2',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/Adobe-KR-9/CMap/Adobe-KR-2',
+   'DATA'),
+  ('docling_parse/pdf_resources/cmap-resources/Adobe-KR-9/CMap/UniAKR-UTF16-H',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/cmap-resources/Adobe-KR-9/CMap/UniAKR-UTF16-H',
+   'DATA'),
+  ('docling_parse/pdf_resources/glyphs/custom/MathematicalPi/MathematicalPi.hex.dat',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/glyphs/custom/MathematicalPi/MathematicalPi.hex.dat',
+   'DATA'),
+  ('docling_parse/pdf_resources/glyphs/custom/MathematicalPi/MathematicalPi.dat',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/glyphs/custom/MathematicalPi/MathematicalPi.dat',
+   'DATA'),
+  ('docling_parse/pdf_resources/glyphs/custom/MathematicalPi/MathematicalPi.dat.orig',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/glyphs/custom/MathematicalPi/MathematicalPi.dat.orig',
+   'DATA'),
+  ('docling_parse/pdf_resources/glyphs/custom/MathematicalPi/MathematicalPi.uni.dat',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/glyphs/custom/MathematicalPi/MathematicalPi.uni.dat',
+   'DATA'),
+  ('docling_parse/pdf_resources/glyphs/custom/MathematicalPi/transform.py',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/glyphs/custom/MathematicalPi/transform.py',
+   'DATA'),
+  ('docling_parse/pdf_resources/glyphs/custom/MathematicalPi/__pycache__/transform.cpython-313.pyc',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/glyphs/custom/MathematicalPi/__pycache__/transform.cpython-313.pyc',
+   'DATA'),
+  ('docling_parse/pdf_resources/glyphs/custom/TeX/glyphs_01.dat',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/glyphs/custom/TeX/glyphs_01.dat',
+   'DATA'),
+  ('docling_parse/pdf_resources/glyphs/custom/TeX/glyphs_02.dat',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/glyphs/custom/TeX/glyphs_02.dat',
+   'DATA'),
+  ('docling_parse/pdf_resources/glyphs/standard/scripts.dat',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/glyphs/standard/scripts.dat',
+   'DATA'),
+  ('docling_parse/pdf_resources/glyphs/standard/glyphlist.dat',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/glyphs/standard/glyphlist.dat',
+   'DATA'),
+  ('docling_parse/pdf_resources/glyphs/standard/zapfdingbats.dat',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/glyphs/standard/zapfdingbats.dat',
+   'DATA'),
+  ('docling_parse/pdf_resources/glyphs/standard/additional.dat',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/glyphs/standard/additional.dat',
+   'DATA'),
+  ('docling_parse/pdf_resources/glyphs/standard/missing.dat',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/glyphs/standard/missing.dat',
+   'DATA'),
+  ('docling_parse/pdf_resources/encodings/macroman.dat',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/encodings/macroman.dat',
+   'DATA'),
+  ('docling_parse/pdf_resources/encodings/std.dat',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/encodings/std.dat',
+   'DATA'),
+  ('docling_parse/pdf_resources/encodings/winansi.dat',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/encodings/winansi.dat',
+   'DATA'),
+  ('docling_parse/pdf_resources/encodings/macexpert.dat',
+   '/Users/kaylinwilley/Documents/Assorted School/Senior '
+   'Design/Kaylin-Bob-Fork/venv/lib/python3.13/site-packages/docling_parse/pdf_resources/encodings/macexpert.dat',
+   'DATA')])
