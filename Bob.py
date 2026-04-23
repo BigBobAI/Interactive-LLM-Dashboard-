@@ -5,7 +5,7 @@ os.environ["STREAMLIT_WATCHER_TYPE"] = "none"
 os.environ["STREAMLIT_SERVER_PORT"] = "8501"
 os.environ["STREAMLIT_GLOBAL_DEVELOPMENT_MODE"] = "false"
 import sys
-import config 
+import config
 import uuid 
 import requests
 import streamlit as st #in venv --> pip install streamlit
@@ -13,9 +13,9 @@ import ollama #in venv --> pip install ollama
 from pypdf import PdfReader #in venv --> pip install pypdf
 import pandas as pd #in venv --> pip install pandas, pip install tabulate
 from docx import Document #in venv --> pip install python-docx
-from docling.document_converter import DocumentConverter
+from docling.document_converter import DocumentConverter 
 from PIL import Image 
-import streamlit_hotkeys as hotkeys
+import streamlit_hotkeys as hotkeys #in venv --> pip install streamlit-hotkeys
 
 #also note, for installations you should also be able to do pip install -r requirements.txt (all of the requirements should be in there)
 
@@ -138,7 +138,7 @@ if __name__ == "__main__":
 
     def delete_chat(chat_index: int): #delete single chat function 
         if len(st.session_state['CHATS']) <= 1: #dont allow deleting last chat
-            st.warning("You are not allowed to delete tthe remaining chat.")
+            st.warning("You are not allowed to delete the remaining chat.")
             return
         
         st.session_state['CHATS'].pop(chat_index) #remove the chat + its name
@@ -366,7 +366,7 @@ if __name__ == "__main__":
                             st.rerun() #rerun to update the chat with the new assistant message about files being uploaded and processed
                         continue #skip the rest of the loop as the image has been described and taken in
 
-                    print("File was uploaded btw: " + f.name) #print the name of the file that was uploaded to the terminal for testing purposes
+                    #print("File was uploaded btw: " + f.name) #print the name of the file that was uploaded to the terminal for testing purposes
 
 
                     #DOCLING STUFF IS GOING TO HAPPEN BELOW#
@@ -376,7 +376,7 @@ if __name__ == "__main__":
 
                     #define the full path of the file and the folder
                     docling_file_path = os.path.join(save_folder, "docling_" + files_uploaded[i].name)
-                    print("docling file path: ", docling_file_path)
+                    #print("docling file path: ", docling_file_path)
 
                     #write the information of the file to the folder
                     with open(docling_file_path, "wb") as f:
@@ -392,7 +392,7 @@ if __name__ == "__main__":
                                                 f"The contents of the file is: {f.read()}"
                                 }
                         ) 
-                    print("File was uploaded btw: " + f.name) #print the name of the file that was uploaded to the terminal for testing purposes
+                    #print("File was uploaded btw: " + f.name) #print the name of the file that was uploaded to the terminal for testing purposes
 
                     legible_name = f.name.split("docling_") #split the name of the file to make it more legible for the user (after docling segment)
                     
@@ -484,7 +484,7 @@ if __name__ == "__main__":
 
 
                     else:
-                        print("There's an issue with finding the file type dawg")
+                        #print("There's an issue with finding the file type")
 
                         st.session_state.messages.append(
                         {
