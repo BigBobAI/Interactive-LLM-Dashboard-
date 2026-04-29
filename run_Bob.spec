@@ -2,6 +2,7 @@
 
 from PyInstaller.utils.hooks import collect_data_files
 from PyInstaller.utils.hooks import copy_metadata
+from PyInstaller.utils.hooks import collect_all
 
 import os
 import pathlib
@@ -24,6 +25,11 @@ all_data += copy_metadata('docling-parse')
 
 all_data += collect_data_files("docling")
 
+all_data += copy_metadata("streamlit-hotkeys")
+
+hotkeys_datas, hotkeys_binaries, hotkeys_hiddenimports = collect_all("streamlit_hotkeys")
+
+all_data += hotkeys_datas
 
 
 # add the prof images for user and assistant (include everything in the assets folder)
@@ -40,13 +46,16 @@ all_data += [
     (".streamlit/config.toml", ".streamlit"),
 ]
 
+hiddenimports = ["ollama", "config", "uuid", "pypdf", "pandas", "docx", "docling", "docling.document_converter", "docling.models.plugins", "docling.models.plugins.defaults", "streamlit_hotkeys"]
+hiddenimports += hotkeys_hiddenimports
+
 
 a = Analysis(
     ['run_Bob.py'],
     pathex=[],
     binaries=[],
     datas=all_data,
-    hiddenimports=["ollama", "config", "uuid", "pypdf", "pandas", "docx", "docling", "docling.document_converter", "docling.models.plugins", "docling.models.plugins.defaults"],
+    hiddenimports=hiddenimports,
     hookspath=['./hooks'],
     hooksconfig={},
     runtime_hooks=[],

@@ -1,5 +1,5 @@
 #!/bin/sh
-'''exec' "/Users/kaylinwilley/Documents/Assorted School/Senior Design/Kaylin-Bob-Fork/venv/bin/python3.13" "$0" "$@"
+'''exec' "/Users/kaylinwilley/Documents/Assorted School/Senior Design/InteractiveLLMDashboard/venv/bin/python3.13" "$0" "$@"
 ' '''
 import sys
 from pip._internal.cli.main import main
