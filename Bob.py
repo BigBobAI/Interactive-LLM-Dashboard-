@@ -1,5 +1,6 @@
 import os
-os.environ["STREAMLIT_DEVELOPMENT_MODE"] = "false"
+os.environ["S" \
+"TREAMLIT_DEVELOPMENT_MODE"] = "false"
 os.environ["STREAMLIT_DEV_MODE"] = "0"
 os.environ["STREAMLIT_WATCHER_TYPE"] = "none"
 os.environ["STREAMLIT_SERVER_PORT"] = "8501"
